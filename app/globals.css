@@ -1,17 +1,35 @@
 @import "tailwindcss";
 
+/* Default (light mode) variables */
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Custom Theme Colors */
+  --color-primary: #2D2F9C;     /* Deep Blue */
+  --color-secondary: #00A14B;   /* Green */
+  --color-accent: #EF1C1C;      /* Red */
+  --color-dark: #333333;        /* Neutral Dark */
+  --color-light: #F5F7FA;       /* Neutral Light */
+  --color-medium: #E2E8F0;      /* Neutral Medium */
 }
 
+/* Tailwind v4 theme variables */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-accent: var(--color-accent);
+  --color-dark: var(--color-dark);
+  --color-light: var(--color-light);
+  --color-medium: var(--color-medium);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
+/* Dark mode overrides */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -19,8 +37,14 @@
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Base styles using Tailwind @apply */
+@layer base {
+  body {
+    @apply bg-[--color-light] text-[--color-dark];
+    font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
 }
