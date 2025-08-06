@@ -146,7 +146,15 @@ const Footer = () => {
             </p>
             <div className="mt-4 md:mt-0">
               <p className="text-medium">
-                Design and develop by <span className="font-semibold text-secondary">Shafiullah</span>
+                Design and develop by{' '}
+                <a 
+                  href="https://muhammadshafiullah.space/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-secondary hover:underline transition-all"
+                >
+                  Shafiullah
+                </a>
               </p>
             </div>
           </div>
