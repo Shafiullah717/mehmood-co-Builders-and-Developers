@@ -1,36 +1,110 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏗️ Mehmood Co – Builders & Developers
 
-## Getting Started
+A modern and responsive **Next.js** web application for Mehmood Co – Builders & Developers. Showcases construction projects, company services, gallery, and contact information—all optimized for speed and performance.
 
-First, run the development server:
+---
+## 📸 preview
+![preview Image](public/preview_img.png)
+
+---
+
+
+## 🌎 Live Preview
+
+[View the live website](https://mehmood-co-builders-and-developers.vercel.app)
+
+
+
+---
+
+## 🌟 Features
+
+- 🔹 **Fully Responsive** – Ultra-smooth experience on mobile, tablet, and desktop  
+- 🔹 **Service Pages** – Detailed overviews of real estate and construction offerings  
+- 🔹 **Gallery Section** – Visual showcase of past and ongoing projects  
+- 🔹 **Contact Form** – Front-end setup prepared for backend integration  
+- 🔹 **Static Data-Driven** – Uses local `data/` files—easily migratable to a CMS  
+- 🔹 **Fast & Optimized** – Built on Next.js for performant SSR and SSG  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js** – React framework with App Router  
+- **TypeScript** – Strong typing for reliable code  
+- **CSS** – Scoped styles and layout  
+- **Vercel** – One-click deployment platform  
+
+---
+
+## 🚀 Getting Started
 
 ```bash
+# 1. Clone the repo
+git clone https://github.com/Shafiullah717/mehmood-co-Builders-and-Developers.git
+cd mehmood-co-Builders-and-Developers
+
+# 2. Install dependencies
+npm install
+# or using Yarn / PNPM:
+# yarn install
+# pnpm install
+
+# 3. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to `http://localhost:3000` in your browser to view the project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 Project Structure
 
-## Learn More
+```
+app/                # Next.js App Router pages and layouts
+components/         # Reusable UI elements (Navbar, Footer, etc.)
+data/               # Content files for services, projects, gallery
+public/             # Static assets like images and icons
+styles/             # Global and component-level styles
+next.config.ts      # Project configuration
+package.json        # Project scripts and dependencies
+tsconfig.json       # TypeScript configuration
+README.md           # This file
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚢 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is optimized for deployment on **Vercel**:
 
-## Deploy on Vercel
+1. Push the repo to GitHub.
+2. Create a new project on Vercel and link the GitHub repository.
+3. Set any required environment variables (if needed).
+4. Deploy with automatic CI/CD.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Alternative hosting platforms: Netlify, Render, or other Node.js–compatible services.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🎯 Contributing
+
+Contributions are welcome! Let’s build better together:
+
+1. Fork this repository  
+2. Create a new branch: `git checkout -b feat/your-feature`  
+3. Commit with clear and descriptive messages  
+4. Submit a Pull Request with details of your changes
+
+---
+
+## 📬 Contact
+
+Have suggestions or questions? Reach out:
+
+- GitHub: [Shafiullah717](https://github.com/Shafiullah717)  
+- LinkedIn: [Shafi Ullah](https://www.linkedin.com/in/shafi-ullah-086b83284/)  
+
+---
+
+⭐ If you find this project useful or interesting, please **star** it on GitHub!
